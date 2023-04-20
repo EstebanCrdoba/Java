@@ -6,7 +6,7 @@ package com.mycompany.java.ejercicios;
 import java.util.Scanner;
 /**
  *
- * @author SENA
+ * @author EstebanC
  */
 public class JavaEjercicios8 {
 

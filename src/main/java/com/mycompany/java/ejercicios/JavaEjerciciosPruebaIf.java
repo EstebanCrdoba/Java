@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author SENA
+ * @author EstebanC
  */
 public class JavaEjerciciosPruebaIf {
 
