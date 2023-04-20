@@ -20,25 +20,24 @@ public class JavaEjercicios8 {
         System.out.println("El saldo es de: $"+cap);
         System.out.println("Por favor eliga la opcion \n1-Ingresar dinero\n2-Retirar dinero\n3-Salir");
         opc = en.nextByte();
-        switch (opc){
-            case 1:
-                    System.out.println("Ingrese la cantida a depositar");
-                    deposito = en.nextLong();
-                    capi = (long)(cap+deposito);
-                    System.out.println("El saldo es de: $"+capi);
-                    
-                break;
-            case 2:
-                    System.out.println("Ingrese la cantida a retitar");
-                    deposito = en.nextLong();
-                    capi = (long)(cap-deposito);
-                    System.out.println("El saldo es de: $"+capi);
-                break;
-            case 3:
+        switch(opc){
+            case 1 -> {
+                System.out.println("Ingrese la cantida a depositar");
+                deposito = en.nextLong();
+                capi = (long)(cap+deposito);
+                System.out.println("El saldo es de: $"+capi);
                 
-                break;
-            default:
-                System.out.println("Opcion invalida");
+            }
+            case 2 -> {
+                System.out.println("Ingrese la cantida a retitar");
+                deposito = en.nextLong();
+                capi = (long)(cap-deposito);
+                System.out.println("El saldo es de: $"+capi);
+            }
+            case 3 -> {
+                System.out.println("Que tenga buen dia");
+            }
+            default -> System.out.println("Opcion invalida");
         }
         
     }
